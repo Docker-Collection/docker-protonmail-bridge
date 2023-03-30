@@ -1,0 +1,7 @@
+*
+
+!.dockerignore
+!entrypoint.sh
+!build.sh
+!gpgparams
+!Dockerfile
