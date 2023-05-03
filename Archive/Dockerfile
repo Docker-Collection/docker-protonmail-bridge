@@ -11,7 +11,7 @@ RUN apt-get update && \
     make build-nogui && \
     pwd
 
-FROM ubuntu:jammy@sha256:67211c14fa74f070d27cc59d69a7fa9aeff8e28ea118ef3babc295a0428a6d21 as remaker
+FROM ubuntu:jammy@sha256:dfd64a3b4296d8c9b62aa3309984f8620b98d87e47492599ee20739e8eb54fbf as remaker
 
 WORKDIR /remaker
 
@@ -25,7 +25,7 @@ RUN apt-get update && \
     bash deb_remaker.sh ${PROTONBRIDGE_VERSION} && \
     pwd
 
-FROM ubuntu:jammy@sha256:67211c14fa74f070d27cc59d69a7fa9aeff8e28ea118ef3babc295a0428a6d21
+FROM ubuntu:jammy@sha256:dfd64a3b4296d8c9b62aa3309984f8620b98d87e47492599ee20739e8eb54fbf
 LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
 
 # renovate: datasource=github-releases depName=ProtonMail/proton-bridge
