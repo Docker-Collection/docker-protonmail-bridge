@@ -1,4 +1,4 @@
-FROM golang:1.20.2-bullseye@sha256:cb95e56313475447c4f1ba5262ddd7c6ba2c66cdb62c0c699001e8fa1755480f as builder
+FROM golang:1.20.4-bullseye@sha256:918857f4064db0fff49799ce5e7c4d43e394f452111cd89cca9af539c18a76a8 as builder
 
 # renovate: datasource=github-releases depName=ProtonMail/proton-bridge
 ARG PROTONBRIDGE_VERSION=3.0.21
