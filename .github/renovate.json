@@ -16,5 +16,5 @@
       ]
     }
   ],
-  "ignorePaths": ["**/aws-s3/**"]
+  "ignorePaths": ["**/aws-s3/**","**/Archive/**"]
 }
