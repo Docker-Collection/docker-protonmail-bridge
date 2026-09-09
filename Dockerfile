@@ -9,7 +9,7 @@ WORKDIR /build/
 COPY build.sh /build/
 RUN bash build.sh
 
-FROM ubuntu:jammy@sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
+FROM ubuntu:resolute@sha256:513c074113a871b51a8d16ab445c88779d6452d937a164fb5cc479f32668a41d
 LABEL maintainer="Xiaonan Shen <s@sxn.dev>"
 
 EXPOSE 25/tcp
