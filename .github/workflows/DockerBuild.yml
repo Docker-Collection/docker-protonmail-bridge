@@ -20,7 +20,7 @@ concurrency:
 jobs:
   docker:
     name: docker build
-    uses: Docker-Collection/reusable-workflows/.github/workflows/docker-build.yml@main
+    uses: Docker-Collection/reusable-workflows/.github/workflows/docker-build.yml@9bfb8d9e95122e3289c274e514fe0be48b5aaaba # main
     with:
       docker_name: "ghcr.io/docker-collection/protonmail-bridge"
       docker_label_author: "Efina"
